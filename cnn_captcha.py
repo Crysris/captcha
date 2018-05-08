@@ -236,7 +236,7 @@ class CaptchaBreak(object):
         return captcha_text
 
     def test(self, src='test/'):
-        for i in range(4632, 4660):
+        for i in range(4632, 4638):
             text = self.predictaByPath(src + str(i) + '.png')
             print('图片', src + str(i) + '.png 预测输入：', text)
 
