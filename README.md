@@ -6,27 +6,26 @@
 
 测试图片
 
-![avatar](test/4632.png)
-![avatar](test/4633.png)
-![avatar](test/4634.png)
-![avatar](test/4635.png)
-![avatar](test/4636.png)
-![avatar](test/4637.png)
-
-测试结果
-![avatar](res/5.png)
-
-
-![avatar](res/1.png)
-
-![avatar](res/2.png)
-
-开始时间，结束时间ID的提取
+![avatar](test/1.png)
+![avatar](test/2.png)
+![avatar](test/3.png)
+![avatar](test/4.png)
+![avatar](test/5.png)
+![avatar](test/6.png)
+![avatar](test/7.png)
+![avatar](test/8.png)
+![avatar](test/9.png)
 
 
-![avatar](res/3.png)
 
-座位号ID的提取
+
+python3 library.py即可实现自动登录并预约
+
+需要在config.ini文件中配置好个人信息
+
+可以使用一个脚本每天自动预约抢座
+
+
 
 
 每一个座位的ID号、开始时间、结束时间以及当前日期其实都可以爬下来

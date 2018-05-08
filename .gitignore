@@ -4,4 +4,4 @@ __pycache__/
 mcaptcha.py
 .DS_Store
 mymodel/
-
+config.ini

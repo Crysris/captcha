@@ -236,13 +236,13 @@ class CaptchaBreak(object):
         return captcha_text
 
     def test(self, src='test/'):
-        for i in range(4632, 4638):
+        for i in range(1, 10):
             text = self.predictaByPath(src + str(i) + '.png')
             print('图片', src + str(i) + '.png 预测输入：', text)
 
 
-'''captcha_break = CaptchaBreak()
+captcha_break = CaptchaBreak()
 captcha_break.init()
-captcha_break.test()'''
+captcha_break.test()
 #captcha_break.train()'
 #captcha_break.evaluate()
